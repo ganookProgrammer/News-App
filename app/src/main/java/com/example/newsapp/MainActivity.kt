@@ -22,7 +22,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             NewsAppTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    HomeUi(viewModel = viewModel)
+                    HomeUi(viewModel = viewModel,innerPadding)
 
                 }
             }
